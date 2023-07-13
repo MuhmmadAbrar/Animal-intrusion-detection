@@ -1,0 +1,4 @@
+train: D:\SEMESTER 5\IOT\PROJECT\dataset-github\Animal-intrusion-detection\trial2\New_dataset\train
+val: D:\SEMESTER 5\IOT\PROJECT\dataset-github\Animal-intrusion-detection\trial2\New_dataset\val
+nc: 2
+names: ['elephant','tiger']
