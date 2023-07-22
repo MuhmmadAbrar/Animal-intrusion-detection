@@ -5,7 +5,6 @@ import pafy
 
 import settings
 
-
 def load_model(model_path):
     model = YOLO("./weights/best.pt")
     return model

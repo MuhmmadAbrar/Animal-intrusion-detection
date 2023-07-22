@@ -1,4 +1,0 @@
-train: D:\SEMESTER 5\IOT\PROJECT\dataset-github\Animal-intrusion-detection\Consolidated_dataset\train
-val: D:\SEMESTER 5\IOT\PROJECT\dataset-github\Animal-intrusion-detection\Consolidated_dataset\val
-nc: 2
-names: ['elephant','tiger']
