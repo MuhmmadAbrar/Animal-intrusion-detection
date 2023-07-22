@@ -1,7 +1,5 @@
 # Animal Intrusion Detection System (AIDS)
 
-![AIDS Logo](/path/to/your/logo.png) *(Replace this with your system's logo if available)*
-
 The Animal Intrusion Detection System (AIDS) is an intelligent system that utilizes YOLOv8 Ultralytics for training and detection. It is capable of detecting elephants and tigers in various media formats, including images, videos, and real-time feeds. The system has been deployed using Streamlit, and it also provides SMS alerts using Twilio to notify users of potential animal intrusions.
 
 ## Table of Contents
