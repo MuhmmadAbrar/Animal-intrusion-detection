@@ -2,3 +2,4 @@ ultralytics
 opencv-python-headless==4.5.4.60
 pafy
 streamlit==1.10.0
+twilio
