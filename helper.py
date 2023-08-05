@@ -5,6 +5,12 @@ import pafy
 
 import settings
 
+# def append_lines_to_file(file_path, lines):
+#     with open(file_path, 'a') as file:    
+#         file.writelines(str(lines))
+# file_path = 'videocache.txt'
+
+
 def load_model(model_path):
     model = YOLO("./weights/best.pt")
     return model
@@ -26,7 +32,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
         res = model.track(image, conf=conf, persist=True, tracker=tracker)
     else:
         res = model.predict(image, conf=conf)
-
+    #append_lines_to_file(file_path, res[0])
     res_plotted = res[0].plot()
     st_frame.image(res_plotted,
                    caption='Detected Video',
